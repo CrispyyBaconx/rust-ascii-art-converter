@@ -1,0 +1,11 @@
+[package]
+name = "rust-ascii-art-converter"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+image = "0.25.5"
+
+[[bin]]
+name = "rust-ascii-art-converter"
+path = "main.rs"
