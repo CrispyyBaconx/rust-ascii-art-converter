@@ -5,6 +5,9 @@ edition = "2024"
 
 [dependencies]
 image = "0.25.5"
+imageproc = "0.25.0"
+ab_glyph = "0.2.29"
+rayon = "1.10.0"
 
 [[bin]]
 name = "rust-ascii-art-converter"

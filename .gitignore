@@ -1,2 +1,12 @@
 /target
-pics/
+pics/*
+vids/*
+ascii_frames/*
+temp_frames/*
+*.png
+*.mp4
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.txt
