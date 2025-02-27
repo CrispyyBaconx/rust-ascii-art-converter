@@ -30,12 +30,12 @@ fn main() {
     let args: Vec<String> = std::env::args().collect();
 
     if args.len() < 3 {
-        println!("Usage: {} <image_path> <scale>", args[0]);
+        println!("Usage: {} <image_path> <scale (default: 1)>", args[0]);
         return;
     }
 
     let dir = &args[1];
-    let scale = args[2].parse::<u32>().unwrap();
+    let scale = args[2].parse::<u32>().unwrap_or(1);
     get_image(dir, scale);
 }
 
